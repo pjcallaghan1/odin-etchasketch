@@ -1,0 +1,23 @@
+* {
+    background-color: #a0d2eb;
+    color: #494d5f;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    padding: 1em;
+
+    background-color: white;
+}
+
+button {
+    background-color: #d0bdf4;
+    border-color: #8458b3;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 25px;
+
+}
