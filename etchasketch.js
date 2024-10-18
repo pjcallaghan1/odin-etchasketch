@@ -33,3 +33,9 @@ size.addEventListener('click', function() {
         alert('Please enter a valid number between 1 and 100');
     }
 });
+
+reset.addEventListener('click', function() {
+    grid.innerHTML = '';
+    makeSquare(16,16);
+    alert('Reset grid size and color!');
+});
